@@ -1,0 +1,36 @@
+.custom-input {
+  display: flex;
+}
+
+.file-name {
+  height: 54px;
+  width: 297px;
+  padding-left: 16px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #d0cfcf;
+  border-radius: 0px 4px 4px 0px;
+  border-left: none;
+  color: #7e7e7e;
+}
+
+.btn {
+  width: 83px;
+  height: 54px;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: transparent;
+  font-size: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.87);
+  border-radius: 4px 0px 0px 4px;
+  cursor: pointer;
+}
+
+.error {
+  font-size: 12px;
+  line-height: 14px;
+  font-family: "Nunito";
+  color: #cb3d40;
+  margin-left: 16px;
+  margin-top: 4px;
+  position: absolute;
+}
